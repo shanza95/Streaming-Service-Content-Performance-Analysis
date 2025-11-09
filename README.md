@@ -3,17 +3,16 @@
 This project analyzes content performance, viewer engagement, and subscription trends for a fictional streaming platform. The goal is to understand viewer preferences across regions and genres, identify top-performing content, and evaluate subscriber retention over time. 
 
 ### Insights 
+Datasets
+- Raw Datasets (to be cleaned) can be found [here](Datasets%20to%20be%20cleaned/)
+- Cleaned Datasets can be found [here](cleaned%20files%20from%20python/)
+  
+Data Cleaning & Analysis
+- You can explore the full Python implementation for the data cleaning phase in the [notebook](Python_cleaning.ipynb/) , which includes step-by-step code and comments.
+- The SQL queries utilized to inspect and perform queries can be found [here](streaming.sql/)
 - An interactive dashboard can be downloaded [here](https://public.tableau.com/app/profile/shanza.saleem/viz/streaming_17607609821550/Dashboard1?publish=yes/).
-- The SQL queries utilized to inspect and perform quality checks can be found here:
-- The SQL queries utilized to clean, organize, and prepare data for the dashboard can be found here:
+  
 
-### Datasets 
-| Original (to be cleaned)                                                        |   Cleaned            |
-| ----------------------------------------------------------------------------    |--------------------  |
-| ![content_library](Datasets%20to%20be%20cleaned//streaming_content_library.csv/)         |                      |   
-| ![user_viewing_data](Datasets%20to%20be%20cleaned//streaming_user_viewing_data.csv/)     |                      |
-| ![suscription_data](Datasets%20to%20be%20cleaned//streaming_subscription_data.csv/)      |                      |
-   
 ### Tools & Technologies
 | Category               | Tools                            |
 | ---------------------- | -------------------------------- |
@@ -25,7 +24,7 @@ This project analyzes content performance, viewer engagement, and subscription t
 
 ## Project Phases 
 
-### Phase 1: Data Cleaning (Python)
+### Phase 1: Data Cleaning (Python) 
 
 Key Steps:
 - Imported datasets using Pandas.
@@ -70,5 +69,13 @@ Key Queries:
 
 ```
 ### Phase 3: Visualization
+
+| Dashboard                      | Description                                              |
+| ------------------------------ | -------------------------------------------------------- |
+| **Viewer Engagement Overview** | Device usage, average session duration, peak watch times |
+| **Genre & Region Analysis**    | Watch time distribution by genre and geography           |
+| **Subscription Trends**        | New vs. renewed users, churn rate, monthly growth        |
+| **Retention KPIs**             | Renewal rate by plan, engagement-based churn risk        |
+
 
 
