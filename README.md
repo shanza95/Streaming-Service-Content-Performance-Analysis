@@ -39,15 +39,7 @@ Key Steps:
 Key Queries:
 
 1. Top-watched Genres by Region
-   ```
-   SELECT 
-    Region_Availability,
-    Genre,
-    COUNT(*) AS Total_Watches
-   FROM content_library
-   GROUP BY Region_Availability, Genre
-   ORDER BY Region_Availability, Total_Watches DESC
-   LIMIT 10; 
+   
 3. Viewer Retention Analysis
    ```
    SELECT 
