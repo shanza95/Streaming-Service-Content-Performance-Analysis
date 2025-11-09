@@ -38,9 +38,17 @@ Key Steps:
 ### Phase 2: SQL Analysis
 Key Queries Results:
 
-1. [Top-watched Genres by Region](SQL%20Queries%20Results//Top-watched%20genres%20by%20region.png/)
-2. [Viewer Retention Analysis](SQL%20Queries%20Results//Viewer%20retention%20analysis.png/)
-3. [Monthly Subscriber Growth](SQL%20Queries%20Results//Monthly%20subscriber%20growth.png/)
+1.Top-watched Genres by Region
+
+![Top-watched Genres by Region](SQL%20Queries%20Results//Top-watched%20genres%20by%20region.png/)
+
+2. Viewer Retention Analysis
+   
+ ![Viewer Retention Analysis](SQL%20Queries%20Results//Viewer%20retention%20analysis.png/)
+
+3. Monthly Subscriber Growth
+   
+![Monthly Subscriber Growth](SQL%20Queries%20Results//Monthly%20subscriber%20growth.png/)
 
 ### Phase 3: Visualization
 
