@@ -34,7 +34,8 @@ SELECT
     COUNT(Subscription_ID) AS New_Subscribers
 FROM subscription_data
 GROUP BY Month
-ORDER BY Month DESC;
+ORDER BY Month DESC
+LIMIT 20;
 
 
 
