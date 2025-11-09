@@ -3,14 +3,16 @@
 This project analyzes content performance, viewer engagement, and subscription trends for a fictional streaming platform. The goal is to understand viewer preferences across regions and genres, identify top-performing content, and evaluate subscriber retention over time. 
 
 ### Insights 
-- An interactive dashboard can be downloaded here: https://public.tableau.com/app/profile/shanza.saleem/viz/streaming_17607609821550/Dashboard1?publish=yes.
+- An interactive dashboard can be downloaded [here](https://public.tableau.com/app/profile/shanza.saleem/viz/streaming_17607609821550/Dashboard1?publish=yes/).
 - The SQL queries utilized to inspect and perform quality checks can be found here:
 - The SQL queries utilized to clean, organize, and prepare data for the dashboard can be found here:
 
-### Datasets to be downloaded:
-- content_library
-- user_viewing_data
-- suscription_data
+### Datasets 
+| Original (to be cleaned)                                                        |   Cleaned            |
+| ----------------------------------------------------------------------------    |--------------------  |
+| [content_library](Datasets to be cleaned/streaming_content_library.csv)         |                      |   
+| [user_viewing_data](Datasets to be cleaned/streaming_user_viewing_data.csv)     |                      |
+| [suscription_data](Datasets to be cleaned/streaming_subscription_data.csv)      |                      |
    
 ### Tools & Technologies
 | Category               | Tools                            |
