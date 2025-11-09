@@ -10,9 +10,9 @@ This project analyzes content performance, viewer engagement, and subscription t
 ### Datasets 
 | Original (to be cleaned)                                                        |   Cleaned            |
 | ----------------------------------------------------------------------------    |--------------------  |
-| [content_library](Datasets to be cleaned/streaming_content_library.csv)         |                      |   
-| [user_viewing_data](Datasets to be cleaned/streaming_user_viewing_data.csv)     |                      |
-| [suscription_data](Datasets to be cleaned/streaming_subscription_data.csv)      |                      |
+| ![content_library](Datasets%20to%20be%20cleaned//streaming_content_library.csv/)         |                      |   
+| ![user_viewing_data](Datasets%20to%20be%20cleaned//streaming_user_viewing_data.csv/)     |                      |
+| ![suscription_data](Datasets%20to%20be%20cleaned//streaming_subscription_data.csv/)      |                      |
    
 ### Tools & Technologies
 | Category               | Tools                            |
