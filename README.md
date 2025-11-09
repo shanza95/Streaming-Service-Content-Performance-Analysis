@@ -1,6 +1,6 @@
 ## Streaming-Service-Content-Performance-Analysis
 ### Project Overview: 
-This project analyzes content performance, viewer engagement, and subscription trends for a fictional streaming platform. The goal is to understand viewer preferences across regions and genres, identify top-performing content, and evaluate subscriber retention over time. 
+This project analyzes content performance, viewer engagement, and subscription trends for a fictional streaming platform. The goal is to understand viewer preferences across regions and genres, identify top-performing content, and evaluate subscriber retention over time.
 
 ### Insights 
 Datasets
