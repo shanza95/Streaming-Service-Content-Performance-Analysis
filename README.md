@@ -40,7 +40,7 @@ Key Queries Results:
 
 1.Top-watched Genres by Region
 
-![Top-watched Genres by Region](SQL%20Queries%20Results//Top-Watched%20genres%20by%20region.png/) 
+![Top-watched Genres by Region](SQL%20Queries%20Results//Top-watched%20genres%20by%20region.png/) 
 
 2. Viewer Retention Analysis
    
