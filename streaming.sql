@@ -5,14 +5,13 @@ use streaming;
 
 ## Q1: Top-watched genres by region
 SELECT 
-    Region_Availability,
-    Genre,
-    COUNT(*) AS Total_Watches
-FROM content_library
-GROUP BY Region_Availability, Genre
-ORDER BY Region_Availability, Total_Watches DESC
-LIMIT 10;
-
+    c.region_availability, c.Genre,
+    count(u.watch_time_minutes) AS total_watch_time
+FROM user_viewing_data u
+JOIN content_library c 
+    ON u.content_id = c.content_id
+GROUP BY c.region_availability, c.Genre
+ORDER BY total_watch_time DESC;
 
 ## Q2: Viewer retention analysis
 # Viewer Retention Analysis is the process of measuring how long viewers stay engaged with a piece of content (like a video, movie, or episode) over time -- 
