@@ -36,30 +36,12 @@ Key Steps:
 - Installed pymysql library and connected to SQLAlchemy engine to view tables in DB.
   
 ### Phase 2: SQL Analysis
-Key Queries:
+Key Queries Results:
 
-1. Top-watched Genres by Region
-   
-3. Viewer Retention Analysis
-   ```
-   SELECT 
-    c.Genre,
-    AVG(u.Watch_Time_Minutes) AS Avg_Watch_Time
-   FROM user_viewing_data AS u
-   JOIN content_library AS c
-    ON u.Content_ID = c.Content_ID
-   GROUP BY c.Genre
-   ORDER BY Avg_Watch_Time DESC;
-5. Monthly Subscriber Growth
-```
-   SELECT
-      DATE_FORMAT(Start_Date, '%d-%m-%Y') AS Month,
-       COUNT(Subscription_ID) AS New_Subscribers
-   FROM subscription_data
-   GROUP BY Month
-   ORDER BY Month DESC;
+1. [Top-watched Genres by Region](SQL%20Queries%20Results//Top-watched%20genres%20by%20region.png/)
+2. [Viewer Retention Analysis](SQL%20Queries%20Results//Viewer%20retention%20analysis.png/)
+3. [Monthly Subscriber Growth](SQL%20Queries%20Results//Monthly%20subscriber%20growth.png/)
 
-```
 ### Phase 3: Visualization
 
 | Dashboard                      | Description                                              |
