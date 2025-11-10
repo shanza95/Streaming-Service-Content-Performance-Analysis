@@ -42,6 +42,15 @@ Key Queries Results:
 
 ![Top-watched Genres by Region](SQL%20Queries%20Results//Top-watched%20genres%20by%20region.png/) 
 
+The SQL analysis above combines the user_viewing_data and content_library tables using the content_id key to calculate total viewing time by region and genre. This join provides a unified view of how audiences across different regions engage with various types of content. 
+
+From the results, it’s evident that regional preferences vary significantly:
+
+- **Australia** shows the highest engagement for *Comedy* content, with a total of 105 minutes, indicating a strong inclination toward light-hearted entertainment.
+- **Action** and **Thriller** genres consistently perform well across multiple markets such as the *United States*, *Canada*, and the *United Kingdom*, reflecting their broad international appeal.
+- **Documentaries** and **Science Fiction** attract moderate but steady viewing in all regions, suggesting a smaller yet loyal audience base.
+- The presence of the “Global” tag in several genres implies that some content transcends regional boundaries, contributing to overall platform engagement.
+  
 2. Viewer Retention Analysis
    
  ![Viewer Retention Analysis](SQL%20Queries%20Results//Viewer%20retention%20analysis.png/)
