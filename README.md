@@ -52,12 +52,27 @@ Key Queries Results:
 
 ### Phase 3: Visualization
 
-| Dashboard                      | Description                                              |
-| ------------------------------ | -------------------------------------------------------- |
-| **Viewer Engagement Overview** | Device usage, average session duration, peak watch times |
-| **Genre & Region Analysis**    | Watch time distribution by genre and geography           |
-| **Subscription Trends**        | New vs. renewed users, churn rate, monthly growth        |
-| **Retention KPIs**             | Renewal rate by plan, engagement-based churn risk        |
+- Region Genre Popularity
+
+![Region Genre Popularity](Tableau%20visualization//Region%20Genre%20Popularity.png/)
+
+- Users Count by Renewal Status & Genre
+
+  ![Users Count by Renewal Status & Genre](Tableau%20visualization//Users%20count%20by%20Renewal%20Status%20&%20Genre.png/)
+  
+- View Count by Genre
+
+ ![View Count by Genre](Tableau%20visualization//view%20count%20by%20Genre.png/)
+
+- Watch Time by Device Type
+
+![Watch Time by Device Type](Tableau%20visualization//Watch%20Time%20by%20Device%20Type.png/)
+
+- New Subscribers
+
+ ![New Subscribers](Tableau%20visualization//New%20Subscribers.png/)
+  
+
 
 
 
