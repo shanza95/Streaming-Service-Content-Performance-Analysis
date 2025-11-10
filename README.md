@@ -74,6 +74,8 @@ This trend analysis helps identify high-performance months, supporting strategic
 - Region Genre Popularity
 
 ![Region Genre Popularity](Tableau%20visualization//Region%20Genre%20Popularity.png/)
+<img src="images/Region-Genre-Popularity.png" alt="Region Genre Popularity" width="10"/>
+
 
 
 - Users Count by Renewal Status & Genre
