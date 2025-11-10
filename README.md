@@ -64,6 +64,11 @@ These findings highlight the importance of prioritizing high-engagement genres w
    
 ![Monthly Subscriber Growth](SQL%20Queries%20Results//Monthly%20subscriber%20growth.png/)
 
+The SQL query calculates the number of new subscribers per month, providing a temporal view of user acquisition trends.
+The data indicates consistent monthly subscription activity with slight fluctuations across different years.
+While most months show modest growth (1–3 new subscribers), certain periods such as *September 2023* and *September 2022* experienced noticeable increases, potentially linked to promotional campaigns or the release of popular content.
+This trend analysis helps identify high-performance months, supporting strategic decisions around marketing timing, content launches, and subscription renewal initiatives.
+
 ### Phase 3: Visualization
 
 - Region Genre Popularity
