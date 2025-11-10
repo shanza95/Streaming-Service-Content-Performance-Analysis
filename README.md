@@ -84,6 +84,8 @@ This trend analysis helps identify high-performance months, supporting strategic
 
  ![View Count by Genre](Tableau%20visualization//view%20count%20by%20Genre.png/)
 
+The data shows that Action is the most viewed genre with 376 views, followed by Comedy (310) and Documentary (292). Thriller (287), Sci-Fi (281), and Drama (277) received relatively similar and slightly lower view counts. Overall, action-oriented and light-hearted content attract the most audience interest, while narrative-driven genres maintain consistent but moderate engagement. The Global category, with 505 views, suggests strong overall reach across genres.
+
 - Watch Time by Device Type
 
 ![Watch Time by Device Type](Tableau%20visualization//Watch%20Time%20by%20Device%20Type.png/)
