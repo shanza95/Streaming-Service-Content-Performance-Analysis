@@ -55,6 +55,11 @@ From the results, it’s evident that regional preferences vary significantly:
    
  ![Viewer Retention Analysis](SQL%20Queries%20Results//Viewer%20retention%20analysis.png/)
 
+The SQL aggregation above calculates the average watch time per genre, providing insights into overall audience engagement levels.
+The results indicate that Action content achieves the highest average watch time (≈151.9 minutes), followed closely by Comedy and Drama, suggesting that these genres sustain viewer interest for longer periods.
+Genres such as Documentary and Science Fiction show slightly lower averages, indicating more niche but consistent audiences.
+These findings highlight the importance of prioritizing high-engagement genres when planning future content releases and promotional strategies.
+
 3. Monthly Subscriber Growth
    
 ![Monthly Subscriber Growth](SQL%20Queries%20Results//Monthly%20subscriber%20growth.png/)
@@ -64,6 +69,7 @@ From the results, it’s evident that regional preferences vary significantly:
 - Region Genre Popularity
 
 ![Region Genre Popularity](Tableau%20visualization//Region%20Genre%20Popularity.png/)
+
 
 - Users Count by Renewal Status & Genre
 
