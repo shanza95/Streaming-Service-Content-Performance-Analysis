@@ -72,9 +72,13 @@ This trend analysis helps identify high-performance months, supporting strategic
 ### Phase 3: Visualization
 
 - Region Genre Popularity
-
+  
 ![Region Genre Popularity](Tableau%20visualization//Region%20Genre%20Popularity.png/)
-<img src="images/Region-Genre-Popularity.png" alt="Region Genre Popularity" width="10"/>
+<div align="center"> 
+  <img src="Tableau-visualization/Region-Genre-Popularity.png" alt="Region-Genre-Popularity" width="200"/>
+</div>
+
+
 
 
 
