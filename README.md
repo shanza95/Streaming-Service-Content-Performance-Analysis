@@ -71,36 +71,59 @@ This trend analysis helps identify high-performance months, supporting strategic
 
 ### Phase 3: Visualization
 
-- Region Genre Popularity
-  
-![Region Genre Popularity](Tableau%20visualization//Region%20Genre%20Popularity.png/)
-<div align="center"> 
-  <img src="Tableau-visualization/Region-Genre-Popularity.png" alt="Region-Genre-Popularity" width="200"/>
-</div>
-
-
-
-
-
-- Users Count by Renewal Status & Genre
-
-  ![Users Count by Renewal Status & Genre](Tableau%20visualization//Users%20count%20by%20Renewal%20Status%20&%20Genre.png/)
-  
-- View Count by Genre
-
- ![View Count by Genre](Tableau%20visualization//view%20count%20by%20Genre.png/)
-
-The *Pie Chart* shows that Action is the most viewed genre with 376 views, followed by Comedy (310) and Documentary (292). Thriller (287), Sci-Fi (281), and Drama (277) received relatively similar and slightly lower view counts. Overall, action-oriented and light-hearted content attract the most audience interest, while narrative-driven genres maintain consistent but moderate engagement. The Global category, with 505 views, suggests strong overall reach across genres.
+![Dashboard](Tableau%20visualization//Dashboard%20View.png/)
 
 - Watch Time by Device Type
 
-![Watch Time by Device Type](Tableau%20visualization//Watch%20Time%20by%20Device%20Type.png/)
+The bar chart illustrates the distribution of users based on the devices they use to watch content. TV stands out as the most popular device, with 483 unique users. It is closely followed by Mobile devices, used by 471 users, and Consoles, with 463 users. PCs come next with 461 users, while Tablets are the least used, totaling 450 users.
+This data highlights a relatively balanced distribution across platforms, with TVs maintaining a slight lead as the preferred viewing device among users.
 
-The *Bar Chart* shows TV is most seen device.
+- Region Genre Popularity
+  
+As previously seen through SQL query, Region Genre Popularity differs significantly:
+    - **Australia** shows the highest engagement for *Comedy* content, with a total of 105 minutes, indicating a strong inclination toward light-hearted entertainment.
+    - **Action** and **Thriller** genres consistently perform well across multiple markets such as the *United States*, *Canada*, and the *United Kingdom*, reflecting their broad international appeal.
+    - **Documentaries** and **Science Fiction** attract moderate but steady viewing in all regions, suggesting a smaller yet loyal audience base.
+    - The presence of the “Global” tag in several genres implies that some content transcends regional boundaries, contributing to overall platform engagement.
+
+- Users Count by Renewal Status & Genre
+  
+The chart displays how users renewed their subscriptions across the three Renewal Status categories — Active, Cancelled, and Expired — segmented by genre.
+
+    - Active Renewals: 
+    
+  The highest number of active renewals comes from users interested in the Action genre (42 users), followed by Drama (36 users).
+    Thriller and Science Fiction each account for 29 users, with Documentary close behind at 27. 
+    The least renewed genre among active users is Comedy.
+
+    - Cancelled Renewals:
+  Within cancelled subscriptions, the Action genre again leads with 37 users, followed by Documentary (29), Thriller (26), Science Fiction (26), and Comedy (25). 
+    Drama records the lowest renewal count here with 24 users.
+
+    - Expired Renewals:
+  For expired renewals, Thriller has the highest number with 38 users, followed by Comedy (37), Science Fiction (35), Documentary (32), Action (30), and Drama (27).
+    
+   Overall, the data shows that Action and Thriller tend to be the strongest genres in terms of renewal engagement, while Drama appears to have fewer renewals across most categories.
+
+- View Count by Genre
+
+The *Pie Chart* shows that Action is the most viewed genre with 376 views, followed by Comedy (310) and Documentary (292). 
+Thriller (287), Sci-Fi (281), and Drama (277) received relatively similar and slightly lower view counts. 
 
 - New Subscribers
 
- ![New Subscribers](Tableau%20visualization//New%20Subscribers.png/)
+The chart highlights the number of new user subscriptions across different Subscription Types — Basic, Premium, and Standard — along with the months showing the highest counts of new user IDs.
+
+    - Basic Plan:
+  The Basic subscription type recorded its highest number of new subscriptions, with 15 new user IDs on January 1, 2024.
+
+    - Premium Plan:
+  The Premium type saw a noticeable increase in new subscriptions during April 2024, totaling 7 new user IDs.
+
+    - Standard Plan:
+  The Standard subscription reached a peak of 14 new user IDs in May 2023.
+
+These insights indicate that different subscription types experience growth at distinct periods, with the Basic plan showing the strongest spike in new user sign-ups.
   
 
 
